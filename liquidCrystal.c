@@ -35,7 +35,7 @@ void LCDexample() {
   TRISBbits.TRISB8 = 0; //pin24Direction = OUTPUT
   TRISBbits.TRISB7 = 0; //pin25Direction = OUTPUT
   TRISBbits.TRISB6 = 0; //pin26Direction = OUTPUT
-  
+
   /* Initialize LCD (only need to do once) */
   initializeLCD();
 
@@ -57,8 +57,8 @@ void LCDexample() {
   writeToLCDXY(4, 0, TEXT);
 }
 
-/* 
- * Begin LCD library functions 
+/*
+ * Begin LCD library functions
  */
 
 /* Set Address for Rows & Columns */

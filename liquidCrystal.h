@@ -45,4 +45,3 @@ void writeToLCDXY (uint8_t const ROW, uint8_t const COLUMN, char const * TEXT);
 void clearLCD(void);
 
 #endif	/* LIQUIDCRYSTAL_H */
-
